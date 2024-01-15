@@ -1,0 +1,28 @@
+# Identificando Ameaças
+---
+
+Parte imprescindível da segurança é conseguir visualizar as ameaças ao longo do processo; mas partindo do princípio, o que pode ser entendido como ameaça? Uma ameaça é qualquer evento, pessoa, ação ou objeto que possa representar um risco ou perigo para a segurança de um sistema, seja ele físico (como um prédio), digital (como uma rede) ou até mesmo um sistema social (como uma comunidade ou organização).
+
+Para compreender o panorama de ameaças, o mais indicado é conhecer as técnicas e táticas. Acesse o [MITRE ATT&CK®](https://attack.mitre.org/), uma base de conhecimento acessível globalmente de táticas e técnicas adversárias baseadas no mundo real que sofre constantes atualizações. Não é necessário decorar todas as táticas e passos, mas é importante analisar todo o conteúdo para, posteriormente, verificar onde o seu produto poderia se encaixar em alguma tentativa maliciosa, formas de explorar, entre outros.
+
+Adicionalmente, vai além do escopo do time do AppSec <s>nada de novo por aqui</s>, mas vale o conhecimento. A busca por ameaças correlacionadas à fraudes pode ser obtida através de insights do próprio cotidiano de seu nicho de negócio. Por exemplo, você tem se atualizado sobre os últimos golpes e falhas do produto que está inserido? Para expandir os horizontes, vamos rascunhar um exemplo.
+
+**Nicho da empresa: Seguradora**  
+**Fraudes na mídia:**
+- Fracionamento de despesas de saúde para recebimento indevido de reembolso;
+- Entrega de veículo segurado a um terceiro malicioso com o objetivo de dar fim ao bem;
+- Receber indenização de bens não existentes em residência ou empresa.  
+**Fonte:** [Infomoney](https://www.infomoney.com.br/minhas-financas/fraudes-contra-seguradoras-no-brasil-somam-r-8249-milhoes-entenda-as-consequencias/)
+
+E claro, muitos outros, este foi um exemplo de uma pesquisa aleatória no Google para que tenha uma ideia geral. Então, sempre recomendo a busca de matérias correlacionando a fraude com produtos de forma genérica. Se você está dentro de um ambiente e há uma nova funcionalidade sendo criada, ela poderia abrir brechas em um nicho explorado atualmente por fraudadores? Ou facilitaria a forma de explorar? A necessidade intrínseca de um AppSec é se atualizar não só sobre tecnologias, mas também sobre o cotidiano nacional e até movimentações internacionais. Essas buscas podem vir através de assinaturas de newsletters, matérias esporádicas, podcasts de notícias voltados para segurança, entre outros.
+
+Para uma modelagem no geral, eu sugiro que tente reduzir a análise de ameaças para até 3 ou 4 personas.
+- Interceptação da comunicação
+- Alteração (edição ou remoção) de informações
+- Exploração de configurações falhas (DOS/DOW/DDOS)
+- Uso indevido/furto de credenciais de terceiros.
+
+
+
+--
+Próximo: [Próximos passos em construção e serão linkados aqui]
